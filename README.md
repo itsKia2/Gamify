@@ -1,5 +1,5 @@
 # GAMIFY
-## By BOHARIS: Brian Liu, Omer Karimi (Manager), Heather Newandee, Ayman Alabbasi, Rayan Chahid, Iris Gao, and Shreya Nimbali
+## By BOHARIS: Omer Karimi (Manager), Heather Newandee, Ayman Alabbasi, Rayan Chahid, Iris Gao, and Shreya Nimbali
 
 ### Getting Started (Terminal):
 ```bash
