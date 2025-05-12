@@ -105,7 +105,12 @@ const WeeklyAgenda: React.FC = () => {
     >
       {days.map((label, index) => {
         const full = daysFullName[index];
-        const isToday = todayName === full;
+        const isToday =
+          (todayName == "Saturday" || todayName == "Sunday") &&
+          full == "Weekend"
+            ? true
+            : todayName === full;
+
         const isHovered = hoveredIndex === index;
         const stat = counts[full] || { total: 0, done: 0 };
 

@@ -35,7 +35,7 @@ const MonthlyCalendar: React.FC = () => {
   const year = currentDate.getFullYear();
   const month = currentDate.getMonth();
 
-  const today = new Date().toISOString().split("T")[0];
+  const today = new Date().toLocaleDateString("en-CA"); // gives 'YYYY-MM-DD' in local time
 
   const firstDayOfMonth = new Date(year, month, 1);
   const startingDay = firstDayOfMonth.getDay();
